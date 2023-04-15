@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ff99cc; /* cor de fundo rosa */
+    text-align: center; /* centraliza o conteúdo */
+    display: flex; /* usa flexbox para centralizar os inputs */
+    justify-content: center; /* alinha os itens horizontalmente */
+    align-items: center; /* alinha os itens verticalmente */
+    flex-direction: column; /* coloca os inputs em uma coluna */
+  }
+  
+  /* Estilo do quizz */
+  /* Ajuste o layout, tamanhos de fonte, cores, margens, etc. de acordo com o seu design */
+  
+  /* Estilo da simulação de PA */
+  /* Ajuste o layout, tamanhos de fonte, cores, margens, etc. de acordo com o seu design */
+  
+  /* Media queries para ajustar o layout em dispositivos diferentes */
+  
+  /* Layout para dispositivos móveis (até 767px) */
+  @media (max-width: 767px) {
+    /* Ajuste o layout para dispositivos móveis */
+  }
+  
+  /* Layout para tablets (768px a 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Ajuste o layout para tablets */
+  }
+  
+  /* Layout para desktops (1024px em diante) */
+  @media (min-width: 1024px) {
+    /* Ajuste o layout para desktops */
+  }
+  
+/* 
+body {
+    font-family: Arial, sans-serif;
+  }
+   */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+
+  /* Estilos gerais */
+
+/* Estilo do quizz */
+/* Ajuste o layout, tamanhos de fonte, cores, margens, etc. de acordo com o seu design */
+
+/* Estilo da simulação de PA */
+/* Ajuste o layout, tamanhos de fonte, cores, margens, etc. de acordo com o seu design */
+
+/* Media queries para ajustar o layout em dispositivos diferentes */
+
+/* Layout para dispositivos móveis (até 767px) */
+@media (max-width: 767px) {
+    /* Ajuste o layout para dispositivos móveis */
+  }
+  
+  /* Layout para tablets (768px a 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Ajuste o layout para tablets */
+  }
+  
+  /* Layout para desktops (1024px em diante) */
+  @media (min-width: 1024px) {
+    /* Ajuste o layout para desktops */
+  }
+  
+
+  /*
+Neste exemplo, criamos uma atividade interativa sobre Progressão Aritmética com um quizz no formulário, onde os alunos podem responder às perguntas sobre os conceitos básicos da PA. Em seguida, utilizamos JavaScript para verificar as respostas corretas e fornecer feedback aos alunos.
+
+Também incluímos uma simulação de PA, onde os alunos podem ajustar os parâmetros (termo inicial, diferença comum e número de termos) e ver a progressão aritmética gerada na tela.
+
+Os estilos CSS são aplicados para tornar a atividade visualmente atraente e organizada. Note que os estilos estão separados em um arquivo CSS externo para melhor organização do código.
+
+Lembrando que este é apenas um exemplo básico, e você pode personalizar e expandir essa atividade de acordo com suas necessidades específicas e nível de complexidade desejado.
+*/

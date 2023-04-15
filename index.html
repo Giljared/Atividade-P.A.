@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade de Matemática - Progressão Aritmética</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+  <!-- Conteúdo da atividade aqui -->
+  <h1>Explorando a Progressão Aritmética</h1>
+  <p>Nesta atividade, vamos aprender sobre Progressão Aritmética (PA).</p>
+  
+  <h2>Quizz Interativo</h2>
+  <p>Responda às seguintes perguntas:</p>
+  <form id="quizzForm">
+    <label for="termoInicial">Qual é o termo inicial de uma PA?</label>
+    <input type="text" id="termoInicial" name="termoInicial">
+    <br>
+    <label for="diferencaComum">Qual é a diferença comum de uma PA?</label>
+    <input type="text" id="diferencaComum" name="diferencaComum">
+    <br>
+    <label for="numTermos">Qual é o número de termos em uma PA?</label>
+    <input type="text" id="numTermos" name="numTermos">
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+  <p id="resultadoQuizz"></p>
+  
+  <h2>Simulação de PA</h2>
+  <p>Use os campos abaixo para ajustar os parâmetros de uma PA:</p>
+  <label for="simulacaoTermoInicial">Termo Inicial:</label>
+  <input type="text" id="simulacaoTermoInicial" name="simulacaoTermoInicial">
+  <br>
+  <label for="simulacaoDiferencaComum">Diferença Comum:</label>
+  <input type="text" id="simulacaoDiferencaComum" name="simulacaoDiferencaComum">
+  <br>
+  <label for="simulacaoNumTermos">Número de Termos:</label>
+  <input type="text" id="simulacaoNumTermos" name="simulacaoNumTermos">
+  <br>
+  <button onclick="mostrarSimulacao()">Mostrar PA</button>
+  <p id="simulacaoResultado"></p></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
